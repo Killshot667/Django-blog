@@ -4,9 +4,9 @@ body{
     background-repeat: no-repeat;
     color: #fff;
 }
-.blogLogo {
-    height: 100;
-    width: 100;
+img {
+    height: 100px;
+    width: 100px;
 }
 
 body *{
