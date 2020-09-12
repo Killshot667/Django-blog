@@ -3,6 +3,11 @@
 {% block content %}
 <div class="create-article">
     <h1>Create your article</h1>
+    <form class = "site-form" action = "{% url 'articles:create' %}" method = "POST">
+        {% csrf_token %}
+        {{form}}
+        <input type="submit" value="Create">
+    </form>
 
 </div>
 {% endblock %}
