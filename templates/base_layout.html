@@ -10,7 +10,7 @@
 <body>
     <header class="wrapper">
         <h1><a href="{% url 'articles:list' %}"><img class="blogLogo" src="{% static 'blog_logo.png' %}" height="100" width="100"></a></h1>
-    </header>
+    
     <nav>
         <ul>
             <li>
@@ -21,6 +21,7 @@
             </li>
         </ul>
     </nav>
+    </header>
     {% block content %}
     {% endblock %}
 </body>
